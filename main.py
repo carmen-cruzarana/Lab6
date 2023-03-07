@@ -7,13 +7,6 @@ def encode_pass(old_pass):
         return new_pass
 
 
-def decode_pass(encoded_pass):
-    orig_pass = ''
-    for digit in encoded_pass:
-        digit = int(digit)
-        digit -= 3
-        orig_pass += str(digit)
-    return orig_pass
 
 if __name__ == "__main__":
     while True:
