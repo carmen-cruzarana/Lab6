@@ -30,9 +30,9 @@ if __name__ == "__main__":
             original_pass = input('Please enter your password to encode: ')
             new_password = encode_pass(original_pass)
             print('Your password has been encoded and stored!\n')
-        if choice == 2:
+        elif choice == 2:
             decoded_pass = decode(new_password)
             print(f'The encoded password is {new_password}, and the original password is {decoded_pass}.\n')
-        if choice == 3:
+        elif choice == 3:
             break
 
