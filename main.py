@@ -1,8 +1,7 @@
 def encode_pass(old_pass):
         new_pass = ''
         for digit in old_pass:
-            digit = int(digit)
-            digit += 3
+            digit = int(digit) + 3
             new_pass += str(digit)
         return new_pass
 
