@@ -1,3 +1,4 @@
+# Carmen Cruz Arana
 def encode_pass(old_pass):
         new_pass = ''
         for digit in old_pass:
